@@ -2,13 +2,25 @@
   {
     "id": "movix-provider",
     "name": "Movix VF/VOSTFR",
+    "description": "French & VOSTFR streams from Movix",
     "version": "1.0.0",
     "author": "hassanamin95600",
-    "description": "French & VOSTFR streams from Movix",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
     "filename": "providers/movix.js",
-    "languages": ["fr", "en"],
-    "formats": ["mp4", "m3u8"],
-    "supportedTypes": ["movie", "tv"],
-    "enabled": true
+    "enabled": true,
+    "logo": "",
+    "contentLanguage": [
+      "fr"
+    ],
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "limited": false,
+    "disabledPlatforms": [],
+    "supportsExternalPlayer": true
   }
 ]
