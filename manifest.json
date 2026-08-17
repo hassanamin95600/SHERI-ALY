@@ -1,20 +1,21 @@
 {
+  "id": "sheri-aly-repo",
   "name": "Sheri Providers",
-  "author": "hassanamin95600",
-  "description": "Custom Movix French and VOSTFR streams",
   "version": "1.0.0",
+  "author": "hassanamin95600",
+  "description": "Custom French and VOSTFR streaming providers",
   "manifestVersion": 1,
-  "plugins": [
+  "providers": [
     {
       "id": "movix-provider",
       "name": "Movix VF/VOSTFR",
       "version": "1.0.0",
       "author": "hassanamin95600",
-      "description": "French and VOSTFR streaming provider for Movix",
+      "description": "French & VOSTFR streams from Movix",
       "url": "https://nuvio-providers-wn7e.onrender.com/providers/movix.js",
-      "languages": ["fr", "en"],
       "formats": ["mp4", "m3u8"],
       "supportedTypes": ["movie", "tv"],
+      "languages": ["fr", "en"],
       "enabled": true
     }
   ]
