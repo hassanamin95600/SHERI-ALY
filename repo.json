@@ -1,7 +1,9 @@
 {
+  "id": "sheri-repo",
   "name": "Sheri Providers",
   "author": "hassanamin95600",
   "description": "Movix French and VOSTFR streams",
+  "version": "1.0.0",
   "manifestVersion": 1,
   "providers": [
     {
@@ -11,7 +13,7 @@
       "author": "hassanamin95600",
       "description": "French & VOSTFR streams from Movix",
       "type": "provider",
-      "url": "https://raw.githubusercontent.com/hassanamin95600/SHERI-ALY/main/providers/movix.js",
+      "url": "https://nuvio-providers-wn7e.onrender.com/providers/movix.js",
       "formats": ["mp4", "m3u8"],
       "supportedTypes": ["movie", "tv"],
       "languages": ["fr", "en"],
