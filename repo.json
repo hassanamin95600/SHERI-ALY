@@ -1,9 +1,21 @@
 {
   "name": "Sheri Providers",
   "author": "hassanamin95600",
-  "description": "Movix VF and VOSTFR providers",
+  "description": "Movix French and VOSTFR streams",
   "manifestVersion": 1,
-  "pluginLists": [
-    "https://raw.githubusercontent.com/hassanamin95600/SHERI-ALY/main/manifest.json"
+  "providers": [
+    {
+      "id": "movix-provider",
+      "name": "Movix VF/VOSTFR",
+      "version": "1.0.0",
+      "author": "hassanamin95600",
+      "description": "French & VOSTFR streams from Movix",
+      "type": "provider",
+      "url": "https://raw.githubusercontent.com/hassanamin95600/SHERI-ALY/main/providers/movix.js",
+      "formats": ["mp4", "m3u8"],
+      "supportedTypes": ["movie", "tv"],
+      "languages": ["fr", "en"],
+      "enabled": true
+    }
   ]
 }
