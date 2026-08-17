@@ -1,14 +1,21 @@
-[
-  {
-    "id": "movix-provider",
-    "name": "Movix VF/VOSTFR",
-    "version": "1.0.0",
-    "author": "hassanamin95600",
-    "description": "French and VOSTFR streaming provider for Movix",
-    "filename": "providers/movix.js",
-    "languages": ["fr", "en"],
-    "formats": ["mp4", "m3u8"],
-    "supportedTypes": ["movie", "tv"],
-    "enabled": true
-  }
-]
+{
+  "name": "Sheri Providers",
+  "author": "hassanamin95600",
+  "description": "Custom Movix French and VOSTFR streams",
+  "version": "1.0.0",
+  "manifestVersion": 1,
+  "plugins": [
+    {
+      "id": "movix-provider",
+      "name": "Movix VF/VOSTFR",
+      "version": "1.0.0",
+      "author": "hassanamin95600",
+      "description": "French and VOSTFR streaming provider for Movix",
+      "url": "https://nuvio-providers-wn7e.onrender.com/providers/movix.js",
+      "languages": ["fr", "en"],
+      "formats": ["mp4", "m3u8"],
+      "supportedTypes": ["movie", "tv"],
+      "enabled": true
+    }
+  ]
+}
